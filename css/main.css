@@ -2,6 +2,15 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+@font-face 
+{
+    font-family: 'rubikregular';
+    src: url('rubik/rubik-regular-webfont.woff2') format('woff2'),
+         url('rubik/rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;  /* bold */
+    font-style: normal;  /* italic */
+
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
